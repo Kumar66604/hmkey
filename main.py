@@ -5,7 +5,6 @@ from pyrogram.errors.exceptions.flood_420 import FloodWait
 import random, asyncio
 from config import *
 from broadcast import *
-import uvicorn
 
 for file in os.listdir():
     if file.endswith(".session"):
@@ -111,9 +110,5 @@ async def fcast(_, m : Message):
 
 
 print("BOT SUCCESSFULLY DEPLOYED !!")
-
-if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 8080))
-    uvicorn.run(app, host="0.0.0.0", port=port)
 
 app.run()
