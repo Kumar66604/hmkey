@@ -1,7 +1,7 @@
 {
   "name": "telegram-bot-app",
   "description": "Telegram Bot using Pyrogram",
-  "repository": "https://github.com/Kumar66604/VK-Advanced-bot",
+  "repository": "https://github.com/Kumar66604/hmkey",
   "env": {
     "API_ID": {
       "description": "Your Telegram API ID",
@@ -15,16 +15,8 @@
       "description": "Your Telegram Bot Token",
       "required": true
     },
-    "BOT_USERNAME": {
-      "description": "Your Bot Username",
-      "required": true
-    },
     "OWNER_ID": {
       "description": "Your Telegram User ID (Owner)",
-      "required": true
-    },
-    "LOGGER_ID": {
-      "description": "Your Logger Chat ID",
       "required": true
     },
     "MONGO_URI": {
