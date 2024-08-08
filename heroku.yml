@@ -2,4 +2,4 @@ build:
   docker:
     worker: Dockerfile
 run:
-  ghost: python3 -m Elites
+  web: python3 main.py
