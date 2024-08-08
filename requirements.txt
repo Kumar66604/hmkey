@@ -1,4 +1,7 @@
-pyrogram
 TgCrypto
-pymongo
 gunicorn
+heroku3
+pymongo
+pyrogram
+python-dotenv
+heroku3
